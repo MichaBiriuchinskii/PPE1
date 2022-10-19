@@ -7,3 +7,7 @@
 - la commande "git pull" - on tire les changements du dépôt distant vers notre répertoire local.
 - git fetch - Permet de mettre-à-jour les métadonnées du dépôt sur votre répertoire local. git fetch a quelques avantages par rapport à pull.
   
+>> PPE % echo 'moooooore' >> README.md - Ajoute une ligne à la fin du document
+>> PPE % fichier README.md - Lire le type de format
+README.md : texte Unicode, UTF-8 ext
+>>> PPE % hexdump README.md - Montre comment le document est encodé 
