@@ -14,7 +14,7 @@
 README.md : texte Unicode, UTF-8 ext
 - PPE % hexdump README.md - Montre comment le document est encodé 
 
-— 12 Octobre —
+— 19 Octobre —
 - HTML - langage de balisage. Permet de structurer l’information d’un page pour la rendre visible. Dérivé du SGML “frère” du XML. Permet de marquer les zones dans du contenu textuel.  
 
 - <balise> → le début d’une zone
