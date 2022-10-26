@@ -13,7 +13,22 @@
 - PPE % fichier README.md - Lire le type de format
 README.md : texte Unicode, UTF-8 ext
 - PPE % hexdump README.md - Montre comment le document est encodé 
-  
+
+— 12 Octobre —
+- HTML - langage de balisage. Permet de structurer l’information d’un page pour la rendre visible. Dérivé du SGML “frère” du XML. Permet de marquer les zones dans du contenu textuel.  
+
+- <balise> → le début d’une zone
+- </balise> → la fin d’une zone 
+- <balise/> → "ancre" 
+
+- Quand on ouvre le page sur Internet, en fait, le navigateur telecharge le contenu du page.
+
+- wget - commande 
+- cURL - commande 
+
+- Ils permettent de récupérer des pages web. 
+
+
 — 26 Octobre —
 - lynx = c’est ce qu’on va utiliser pour récuperer le texte de nos fichiers URLs. 
 - lynyx -dump "lien" = effectuer une commande, sortir et transmettre le resultat sur le sortie standard (stdout>l'écran) 
