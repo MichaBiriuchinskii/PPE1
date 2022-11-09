@@ -34,3 +34,7 @@ README.md : texte Unicode, UTF-8 ext
 - lynyx -dump "lien" = effectuer une commande, sortir et transmettre le resultat sur le sortie standard (stdout>l'écran) 
 - head -100 = montres les 100 premiers liens de la page web
 - lynx -dump -nolist "lien" =  retire les liens de liste dans dumps
+
+-9 Novembre- 
+La session d'aujourd'hui a été très difficile car j'ai eu des difficultés techniques avec le mot de passe de mon référentiel, puis avec la synchronisation du dossier sur mon ordinateur et GIT. J'ai ensuite créé un site web, qui est disponible à l'adresse suivante :
+https://michabiriuchinskii.github.io/PPE1/
