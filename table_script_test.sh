@@ -6,7 +6,6 @@ then
 	exit
 fi
 
-
 urls_russe_copy.txt=$1
 
 
@@ -24,7 +23,7 @@ do
 			<table border="6px" border-color="#008080">
 				<tr>
 					<th>URLS</th>
-					<th>NÂ°</th>
+					<th>№</th>
 					<th>CodeHTTP</th>
 				</tr>" > tableau-$compteur_tableau.html
 	while read -r line
