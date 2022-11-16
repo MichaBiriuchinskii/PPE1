@@ -36,5 +36,8 @@ README.md : texte Unicode, UTF-8 ext
 - lynx -dump -nolist "lien" =  retire les liens de liste dans dumps
 
 -9 Novembre- 
-La session d'aujourd'hui a été très difficile car j'ai eu des difficultés techniques avec le mot de passe de mon référentiel, puis avec la synchronisation du dossier sur mon ordinateur et GIT. J'ai ensuite créé un site web, qui est disponible à l'adresse suivante :
+- La session d'aujourd'hui a été très difficile car j'ai eu des difficultés techniques avec le mot de passe de mon référentiel, puis avec la synchronisation du dossier sur mon ordinateur et GIT. J'ai ensuite créé un site web, qui est disponible à l'adresse suivante :
 https://michabiriuchinskii.github.io/PPE1/
+
+-16 Novembre- 
+- J'ai trouvé et essayé différents modèles pour créer un site web. J'ai rencontré le premier problème : les encodages de ces sites ne reconnaissent pas les caractères en dehors de l'ASCII.
