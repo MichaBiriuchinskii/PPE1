@@ -41,3 +41,4 @@ https://michabiriuchinskii.github.io/PPE1/
 
 -16 Novembre- 
 - J'ai trouvé et essayé différents modèles pour créer un site web. J'ai rencontré le premier problème : les encodages de ces sites ne reconnaissent pas les caractères en dehors de l'ASCII.
+- J'ai mis à jour le script en y appliquant la décoration de table selon la norme BULMA 
