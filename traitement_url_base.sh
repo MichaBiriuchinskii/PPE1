@@ -68,6 +68,7 @@ while read -r URL; do
 			dump=""
 			charset=""
 	fi
+	
 	echo "<tr><td>$lineno</td><td>$code</td><td>$URL</td><td>$charset</td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
 	echo -e "\t--------------------------------"
 	lineno=$((lineno+1));
