@@ -12,7 +12,8 @@
 - PPE % echo 'moooooore' >> README.md - Ajoute une ligne à la fin du document
 - PPE % fichier README.md - Lire le type de format
 README.md : texte Unicode, UTF-8 ext
-- PPE % hexdump README.md - Montre comment le document est encodé 
+- PPE % hexdump README.md - Montre comment le document est encodé
+
 
 — 19 Octobre —
 - HTML - langage de balisage. Permet de structurer l’information d’un page pour la rendre visible. Dérivé du SGML “frère” du XML. Permet de marquer les zones dans du contenu textuel.  
@@ -42,3 +43,8 @@ https://michabiriuchinskii.github.io/PPE1/
 -16 Novembre- 
 - J'ai trouvé et essayé différents modèles pour créer un site web. J'ai rencontré le premier problème : les encodages de ces sites ne reconnaissent pas les caractères en dehors de l'ASCII.
 - J'ai mis à jour le script en y appliquant la décoration de table selon la norme BULMA 
+
+-23 Novembre- 
+ -Des modifications ont été apportées au script en classe aujourd'hui. 
+ -Une condition a été ajoutée pour changer l'encodage des fichiers texte s'ils ne sont pas conformes à UTF-8.
+ -Une nouvelle colonne a été ajoutée à la table dans laquelle les encodages seront écrits dans un format uniforme.
