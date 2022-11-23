@@ -33,24 +33,50 @@ echo 	"<html>
 	<body>
 		<h1 class=\"title\">Tableau des URLs</h1>
 		<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">
-			<thead><tr><th>Numéro</th><th>code HTTP</th><th>URL</th></tr></thead>" > $fichier_tableau # направляет сайт, удаляя содержимое предыдущее всего файла
+			<thead><tr><th>Numéro</th><th>code HTTP</th><th>URL</th><th>Charset</th></tr></thead>" > $fichier_tableau # направляет сайт, удаляя содержимое предыдущее всего файла
 
 lineno=1; #счетчик линий
 #читаем линии из файла
-while read -r line;
-do
-	URL=$line;
-	HTTP=$(curl --head $URL | egrep HTTP | cut -d " " -f 2) #здесь определяем переменную, которая ищет начало в доке с урл "ХТТП" и обрезает с помощью пробела текст, берет второй элемент, который нужен (это статус сайта, работает или нет)
-	echo "<tr><td>$lineno</td><td>$HTTP</td><td>$URL</td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
+#while read -r line;
+#do
+	#URL=$line;
+	#HTTP=$(curl --head $URL | egrep HTTP | cut -d " " -f 2) #здесь определяем переменную, которая ищет начало в доке с урл "ХТТП" и обрезает с помощью пробела текст, берет второй элемент, который нужен (это статус сайта, работает или нет)
+while read -r URL; do
+	echo -e "\tURL : $URL";
+	code=$(curl -ILs $URL | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)
+	charset=$(curl -ILs $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
+	charset=$(echo $charset | tr "[a-z]" "[A-Z]") #здесь мы определяем для значения шарсет команду "переделай все маленькие буквы в большие, чтобы всезде UTF-8 были одного вида
+	echo -e "\tcode : $code"; 
+	
+	if [[ ! $charset ]]
+	then
+			echo -e "\tencodage non détecté, on prendra UTF-8 par défaut.";
+			charset="UTF-8";
+	else
+			echo -e "\tencodage : $charset";
+	fi
+	
+	if [[ $code -eq 200 ]]
+	then
+			dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$charset $URL)
+			if [[ $charset -ne "UTF-8" && -n "$dump" ]]
+			then
+					dump=$(echo $dump | iconv -f $charset -t UTF-8//IGNORE)
+			fi
+	else
+			echo -e "\tcode différent de 200 utilisation d'un dump vide"
+			dump=""
+			charset=""
+	fi
+	echo "<tr><td>$lineno</td><td>$code</td><td>$URL</td><td>$charset</td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
+	echo -e "\t--------------------------------"
 	lineno=$((lineno+1));
+	
 done  < $fichier_urls
+
+echo "</table>" >> $fichier_tableau
+echo "</body></html>" >> $fichier_tableau
 	
 
 # modifier la ligne suivante pour créer effectivement du HTML
 #echo "Je dois devenir du code HTML à partir de la question 3" > $fichier_tableau
-
-echo "
-</table>
-</body>
-</html>" >> $fichier_tableau
-
