@@ -48,3 +48,11 @@ https://michabiriuchinskii.github.io/PPE1/
  -Des modifications ont été apportées au script en classe aujourd'hui. 
  -Une condition a été ajoutée pour changer l'encodage des fichiers texte s'ils ne sont pas conformes à UTF-8.
  -Une nouvelle colonne a été ajoutée à la table dans laquelle les encodages seront écrits dans un format uniforme.
+ 
+ — 30 Novembre —
+-Projet VERS 10 Janvier
+-description de projet
+-Choix de mot
+-Intérêt linguistique
+-les démarches à suivre
+-Pas d’erreurs 

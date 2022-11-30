@@ -33,7 +33,7 @@ echo 	"<html>
 	<body>
 		<h1 class=\"title\">Tableau des URLs</h1>
 		<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">
-			<thead><tr><th>Numéro</th><th>code HTTP</th><th>URL</th><th>Charset</th></tr></thead>" > $fichier_tableau # направляет сайт, удаляя содержимое предыдущее всего файла
+			<thead><tr><th>Numéro</th><th>code HTTP</th><th>URL</th><th>Encodage</th> <th>Dump Texte</th></tr></thead>" > $fichier_tableau # направляет сайт, удаляя содержимое предыдущее всего файла
 
 lineno=1; #счетчик линий
 #читаем линии из файла
@@ -69,7 +69,7 @@ while read -r URL; do
 			charset=""
 	fi
 	
-	echo "<tr><td>$lineno</td><td>$code</td><td>$URL</td><td>$charset</td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
+	echo "<tr><td>$lineno</td><td>$code</td><td>$URL</td><td>$charset</td><td></td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
 	echo -e "\t--------------------------------"
 	lineno=$((lineno+1));
 	
@@ -78,6 +78,5 @@ done  < $fichier_urls
 echo "</table>" >> $fichier_tableau
 echo "</body></html>" >> $fichier_tableau
 	
-
 # modifier la ligne suivante pour créer effectivement du HTML
 #echo "Je dois devenir du code HTML à partir de la question 3" > $fichier_tableau
