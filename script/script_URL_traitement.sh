@@ -1,26 +1,19 @@
 #!/usr/bin/env bash
 
-#===============================================================================
-# VOUS DEVEZ MODIFIER CE BLOC DE COMMENTAIRES.
-# Ici, on décrit le comportement du programme.
-# Indiquez, entre autres, comment on lance le programme et quels sont
-# les paramètres.
-# La forme est indicative, sentez-vous libres d'en changer !
-# Notamment pour quelque chose de plus léger, il n'y a pas de norme en bash.
-#===============================================================================
-# !!!!!!
-# ici on doit vérifier que nos deux paramètres existent, sinon on ferme!
-# !!!!!!
-
-
 if [ $# -ne 2 ] #si le nombre d'éléments n'est pas égale à 2, on exit, прописываем условия программы
 then 
 		echo "il faut 2 paramètres"
-		echo "Syntaxe : bash traitement_url_base.sh nom_fichier_URL nom_fichier_HTML"
+		echo "Syntaxe : (1) script_URL_traitement.sh (2) nom_fichier_URL (3) nom_fichier_HTML"
 		exit
 fi
 fichier_urls=$1 # le fichier d'URL en entrée
 fichier_tableau=$2 # le fichier HTML en sortie
+
+mot=$(egrep "(имм|эм)игр[::alpha::]+")
+
+echo $fichier_urls;
+basename=$(basename -s .txt $fichier_urls)
+#basename -s удаляет путь, оставляя только конечное имя файла. Опция -s удаляет расширение
 
 #здесь начинается создание сайта, прописывается условия для создания таблицы и её оформение
 echo 	"<html>
@@ -43,10 +36,15 @@ lineno=1; #счетчик линий
 	#HTTP=$(curl --head $URL | egrep HTTP | cut -d " " -f 2) #здесь определяем переменную, которая ищет начало в доке с урл "ХТТП" и обрезает с помощью пробела текст, берет второй элемент, который нужен (это статус сайта, работает или нет)
 while read -r URL; do
 	echo -e "\tURL : $URL";
+	# ожидаемый способ, без опции -w в cURL
 	code=$(curl -ILs $URL | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)
 	charset=$(curl -ILs $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
 	charset=$(echo $charset | tr "[a-z]" "[A-Z]") #здесь мы определяем для значения шарсет команду "переделай все маленькие буквы в большие, чтобы всезде UTF-8 были одного вида
 	echo -e "\tcode : $code"; 
+	
+	# другой способ, с помощью опции -w в cURL
+	# code=$(curl -Ls -o /dev/null -w "%{http_code}" $URL)
+	# charset=$(curl -ILs -o /dev/null -w "%{content_type}" $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
 	
 	if [[ ! $charset ]]
 	then
@@ -58,6 +56,8 @@ while read -r URL; do
 	
 	if [[ $code -eq 200 ]]
 	then
+			aspiration=$(curl $URL > ../aspirations/$basename-$lineno.html)
+			echo
 			dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$charset $URL)
 			if [[ $charset -ne "UTF-8" && -n "$dump" ]]
 			then
@@ -72,9 +72,9 @@ while read -r URL; do
 	echo "<tr><td>$lineno</td><td>$code</td><td>$URL</td><td>$charset</td><td></td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
 	echo -e "\t--------------------------------"
 	lineno=$((lineno+1));
+	echo "$dump" > ../dumps-text/$basename-$lineno
 	
 done  < $fichier_urls
-
 echo "</table>" >> $fichier_tableau
 echo "</body></html>" >> $fichier_tableau
 	
