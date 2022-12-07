@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# в начале программы можно добавить условие "этот скрипт должен запускаться в racine и тут должны быть такие-то папки. 
+#Если их нет - писать мол создайте правильную среду для скрипта
+
+
 if [ $# -ne 2 ] #si le nombre d'éléments n'est pas égale à 2, on exit, прописываем условия программы
 then 
 		echo "il faut 2 paramètres"
@@ -9,11 +13,11 @@ fi
 fichier_urls=$1 # le fichier d'URL en entrée
 fichier_tableau=$2 # le fichier HTML en sortie
 
-mot=$(egrep "(имм|эм)игр[::alpha::]+")
+mot="(имм|эм)игр\w+" 
 
 echo $fichier_urls;
 basename=$(basename -s .txt $fichier_urls)
-#basename -s удаляет путь, оставляя только конечное имя файла. Опция -s удаляет расширение
+#basename -s удаляет путь, оставляя только конечное имя файла. Опция -s удаляет расширение (тж называется suffix)
 
 #здесь начинается создание сайта, прописывается условия для создания таблицы и её оформение
 echo 	"<html>
@@ -26,7 +30,7 @@ echo 	"<html>
 	<body>
 		<h1 class=\"title\">Tableau des URLs</h1>
 		<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">
-			<thead><tr><th>Numéro</th><th>code HTTP</th><th>URL</th><th>Encodage</th> <th>Dump Texte</th></tr></thead>" > $fichier_tableau # направляет сайт, удаляя содержимое предыдущее всего файла
+			<thead><tr><th>code HTTP</th><th>URL</th><th>Encodage</th><th>Aspirations</th><th>Dump</th><th>Count</th><th>Occurences</th><th>Contextes</th><th>Concordances</th></tr></thead>" > $fichier_tableau # направляет сайт, удаляя содержимое предыдущее всего файла
 
 lineno=1; #счетчик линий
 #читаем линии из файла
@@ -55,26 +59,34 @@ while read -r URL; do
 	fi
 	
 	if [[ $code -eq 200 ]]
+		aspiration=$(curl $URL > ./aspirations/$basename-$lineno.html)
 	then
-			aspiration=$(curl $URL > ../aspirations/$basename-$lineno.html)
-			echo
-			dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$charset $URL)
-			if [[ $charset -ne "UTF-8" && -n "$dump" ]]
-			then
-					dump=$(echo $dump | iconv -f $charset -t UTF-8//IGNORE)
-			fi
+		if [[ $charset == 'UTF-8' ]]
+		then
+			dump=$(curl $URL | lynx -stdin -dump -assume_charset=$charset -display_charset=UTF-8)
+		else
+			dump=$(curl $URL | iconv -f $charset -t UTF-* | lynx -stdin -dump -assume_charset=UTF-8 -display_charset=UTF-8)
+		fi
 	else
-			echo -e "\tcode différent de 200 utilisation d'un dump vide"
-			dump=""
-			charset=""
+		echo -e "\tcode différent de 200 utilisation d'un dump vide"
+		dump=""
+		charset=""
 	fi
+	# compte du nombre d'occurrences
+  NB_OCC=$(grep -E -o $mot ./dumps-text/$basename-$lineno.txt | wc -l)
+  # extraction des contextes
+  grep -E -A2 -B2 $mot ./dumps-text/$basename-$lineno.txt > ./contextes/$basename-$lineno.txt
+  # construction des concordance avec une commande externe
+  
+  bash programmes/concordance.sh ./dumps-text/$basename-$lineno.txt $mot > ./concordances/$basename-$lineno.html
+	Count=$(echo $dump | egrep -o -i "$mot" | wc -l)
+	echo "$dump" > "./dumps-text/$basename-$lineno.txt"
 	
-	echo "<tr><td>$lineno</td><td>$code</td><td>$URL</td><td>$charset</td><td></td></tr>" >> $fichier_tableau #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
+	echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td><td><a href=\"../aspirations/$basename-$lineno.html\">html</a></td><td><a href=\"../dumps-text/$basename-$lineno.txt\">text</a></td><td>$NB_OCC</td><td><a href=\"../contextes/$basename-$lineno.txt\">contextes</a></td><td><a href=\"../concordances/$basename-$lineno.html\">concordance</a></td></tr>" >> $fichier_tableau  #тут мы указываем, куда заносить всю инфу и отмечаем, что при каждой итерации не нужно удалять
 	echo -e "\t--------------------------------"
+
 	lineno=$((lineno+1));
-	echo "$dump" > ../dumps-text/$basename-$lineno
-	
-done  < $fichier_urls
+	done  < $fichier_urls
 echo "</table>" >> $fichier_tableau
 echo "</body></html>" >> $fichier_tableau
 	

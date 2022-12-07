@@ -56,3 +56,10 @@ https://michabiriuchinskii.github.io/PPE1/
 -Intérêt linguistique
 -les démarches à suivre
 -Pas d’erreurs 
+
+ — 7 Décembre —
+-Création du script "Concordances".
+-Ajouter de nouvelles colonnes au tableau
+-Mise à jour de la mise en page du site
+-Créer de nouveaux dossiers
+-chargement des documents récupérés par le script
