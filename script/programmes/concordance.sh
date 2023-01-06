@@ -7,6 +7,7 @@ motif=$2
 if [[ $# -ne 2 ]]
 then
 	echo "Ce programme demande exactement deux arguments."
+	echo "Usage : $0 <fichier> <motif>"
 	exit
 fi
 
@@ -22,30 +23,29 @@ then
   exit
 fi
 
-echo "
-<!DOCTYPE html>
-<html lang=\"en\">
-<head>
-  <meta charset=\"UTF-8\">
-  <title>Concordance</title>
-</head>
-<body>
-<table>
-<thead>
-  <tr>
-    <th class=\"has-text-right\">Contexte droit</th>
-    <th>Cible</th>
-    <th class=\"has-text-left\">Contexte gauche</th>
-  </tr>
-</thead>
-<tbody>
-"
+echo 	"
+            <html>
+             <html lang=\"ru\">
+			 <head>
+							<meta charset=\"utf-8\" /> 
+							<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css\">
+							<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+							<title>Concordance</title>
+			</head>
+			<body>
+							<h1 class=\"title\">Concordance</h1>
+							<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">
+									<thead>
+									<tr>
+									<th class=\"has-text-right\">Contexte gauche</th>
+									<th>Cible</th>
+									<th class=\"has-text-left\">Contexte droit</th>
+									</tr>
+									</thead>
+									" 
+									
+grep -E -o "(\w+\W+){0,5}\b$motif\b(\W+\w+){0,5}" $fichier_text | gsed -E "s/(.*)$motif(.*)/<tr><td class="has-text-right">\1<\/td><td class="has-text-danger">\2<\/td><td class="has-text-left">\3<\/td><\/tr>/" #какая-то хрень с sed не работает тут
 
-grep -E -o "(\w+\W+){0,5}\b$motif\b(\W+\w+){0,5}" $fichier_text | sed -E "s/(.*)($motif)(.*)/<tr><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/"
-
-echo "
-</tbody>
-</table>
-</body>
-</html>
-"
+echo "		</table>
+	        </body>
+    </html>"

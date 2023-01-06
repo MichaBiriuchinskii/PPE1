@@ -1,42 +1,42 @@
-   #[1]FOAF
+   #FOAF
 
-   IFRAME: [2]//www.googletagmanager.com/ns.html?id=GTM-KJBSQR
+   IFRAME: //www.googletagmanager.com/ns.html?id=GTM-KJBSQR
 
    [p?c1=2&c2=10463284&cv=2.0&cj=1]
 
    ?
 
    (BUTTON)
-   [3]LiveJournal
+   LiveJournal
 
      * Find more
-          + [4]Your 2021 in LJ
-          + [5]Communities
-          + [6]RSS Reader
-     * [7]Shop
-     * [8]Help
+          + Your 2021 in LJ
+          + Communities
+          + RSS Reader
+     * Shop
+     * Help
      * (BUTTON) ____________
 
    (BUTTON) Log in
 
      * ____________
        (BUTTON)
-     * [9]Log in
-     * [10]Join free Join
+     * Log in
+     * Join free Join
      *
-     * [11]English (en)
-          + [12]English (en)
-          + [13]Русский (ru)
-          + [14]Українська (uk)
-          + [15]Français (fr)
-          + [16]Português (pt)
-          + [17]español (es)
-          + [18]Deutsch (de)
-          + [19]Italiano (it)
-          + [20]Беларуская (be)
+     * English (en)
+          + English (en)
+          + Русский (ru)
+          + Українська (uk)
+          + Français (fr)
+          + Português (pt)
+          + español (es)
+          + Deutsch (de)
+          + Italiano (it)
+          + Беларуская (be)
 
-   [21][community.gif?v=556?v=621] [22]pora_valit — 3 position in north
-   region rating
+   [community.gif?v=556?v=627.2] pora_valit — 4 position in north region
+   rating
      * [ ] Readability
      * (BUTTON)
 
@@ -46,10 +46,10 @@ Find posts by author
        ____________________ (BUTTON) Apply
 
      * (BUTTON) More
-       [23][community.gif?v=556?v=621] [24]pora_valit
-       3 position in north region rating
-       [25]Archive
-       [26]Filter by author
+       [community.gif?v=556?v=627.2] pora_valit
+       4 position in north region rating
+       Archive
+       Filter by author
        [ ] Readability
 
    LiveJournal
@@ -58,11 +58,11 @@ Find posts by author
 
 Log in
 
-   No account? [27]Create an account
+   No account? Create an account
    __________________
    ____________________
    [ ] Remember me
-   [28]Forgot password
+   Forgot password
    (BUTTON) Log in
    __________________
    (BUTTON) Log in
@@ -75,32 +75,32 @@ Log in
      *
      *
 
-   No account? [29]Create an account
+   No account? Create an account
 
    By logging in to LiveJournal using a third-party service you accept
-   LiveJournal's [30]User agreement
+   LiveJournal's User agreement
 
    Поросенок Петр
-     * [31]Recent Entries
-     * [32]Friends
-     * [33]Archive
-     * [34]Profile
-     * [35]Add to friends
-     * [36]RSS
+     * Recent Entries
+     * Friends
+     * Archive
+     * Profile
+     * Add to friends
+     * RSS
 
-[37][community.gif?v=556?v=621] [38]pora_valit
+[community.gif?v=556?v=627.2] pora_valit
      __________________________________________________________________
 
 Пора валить? Все об эмиграции.
      __________________________________________________________________
 
-   [39]Previous Entry [40]Share [41]Flag [42]Next Entry
+   Previous Entry Share Flag Next Entry
    как я не стал гражданином мира
 
         элито РФ
-                [43][userinfo_v8.svg?v=17080?v=621] [44]blazzer wrote in
-                [45][community.gif?v=556?v=621] [46]pora_valit
-                October 22nd, 11:07
+                [userinfo_v8.svg?v=17080?v=627.2] blazzer wrote in
+                [community.gif?v=556?v=627.2] pora_valit
+                October 22nd, 2022
 
           Где-то в 2005-2006 году, примерно когда нефтяные цены сравнялись
           с самомнением московских правителей, я открыл журнал "эксперт" и
@@ -120,9 +120,9 @@ Log in
           американские стартапы за долю в компании. Подбирал клиентов,
           работая на фриланс сайтах, упирая на количество заказов в нише.
           Технологически процесс описан тут
-          [47]https://habr.com/ru/post/285938/ . В это время я жил в
-          основном между Сербией, Черногорией и Республикой Српской
-          (Босния), переезжая в новую страну каждые 85 дней без виз.
+          https://habr.com/ru/post/285938/ . В это время я жил в основном
+          между Сербией, Черногорией и Республикой Српской (Босния),
+          переезжая в новую страну каждые 85 дней без виз.
           Поэтому у меня шло по факту три иммиграционных процесса
           параллельно. Главный в Канаду. Запасной "как бы" процесс в
           Сербию - там я не спеша подготавливал базу для ВНЖ к тому
@@ -158,21 +158,20 @@ Log in
           Удачи.
      __________________________________________________________________
 
-   [48]promo [49][community.gif?v=556?v=621] [50]pora_valit april 11, 2014
-   16:50 [51]21
-   [52]Buy for 100 tokens
+   promo [community.gif?v=556?v=627.2] pora_valit апрель 11, 2014 16:50 21
+   Buy for 100 tokens
 
 Community Info
 
      * Current price100 LJ Tokens
-     * Social capital1 700
-     * Community readers
+     * Social capital1 443
+     * Community readers2 500+
      * Duration24 hours
      * Minimal stake100 LJT
-     * [53]Rules
-     * [54]View all available promo
+     * Rules
+     * View all available promo
 
-   [55]Как искать информацию в этом сообществе.
+   Как искать информацию в этом сообществе.
    В "Пора валить?" полно полезной информации(15000+ постов), эта
    инструкция поможет найти то, что вам нужно и интересно. Есть [DEL: два
    :DEL] теперь три основных способа. Первый: У каждого толкового поста
@@ -181,52 +180,52 @@ Community Info
      __________________________________________________________________
 
    14 comments — :
-   ( 14 comments — [56]Leave a comment )
+   ( 14 comments — Leave a comment )
      * ←
      * 1
      * →
 
-   [57][userinfo_v8.svg?v=17080?v=621] [58]penetrat0r
-   [59]2022-10-22 05:14 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] penetrat0r
+   2022-10-22 05:14 pm (UTC)
    Вот тут — другое дело. :)
-     * [60]Reply
-     * [61]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [62][userinfo_v8.svg?v=17080?v=621] [63]nachni_dot_com
-   [64]2022-10-22 08:12 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] nachni_dot_com
+   2022-10-22 08:12 pm (UTC)
    Прикольно, что некоторым стало понятно, что в России нечего ловить в
    2005, кто-то - в 2008, кто-то в 2014, а кому-то до сих пор ещё не
    уверен. Вдруг удастся всех англосаксов победить, импортозамещение
    заработает, и экономика расцветёт, и опять всё разрешат и власти начнут
    прислушиваться и уважительно относиться?
-     * [65]Reply
-     * [66]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [67][userinfo_v8.svg?v=17080?v=621] [68]kh_sugutskiy
-   [69]2022-10-22 09:28 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] kh_sugutskiy
+   2022-10-22 09:28 pm (UTC)
    Предатель учит других как им так же предавать Родину
    Ты там не захлебнись навозом на птицефабрике
-     * [70]Reply
-     * [71]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [72][userinfo_v8.svg?v=17080?v=621] [73]penetrat0r
-   [74]2022-10-23 05:54 am (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] penetrat0r
+   2022-10-23 05:54 am (UTC)
    Нелюдь, Вам с Парашкой подыхать, а тут про другое.
    Адью.
-     * [75]Reply
-     * [76]Parent
-     * [77]Thread
+     * Reply
+     * Parent
+     * Thread
      *
      __________________________________________________________________
 
-   [78][userinfo_v8.svg?v=17080?v=621] [79]oleg_sentia
-   [80]2022-10-24 08:03 am (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] oleg_sentia
+   2022-10-24 08:03 am (UTC)
    Фашист отличается от нормального человека тем, что для фашиста главное
    это его государство, а народ бабы нарожают. Фашистов еще называют
    левыми, это недозрлые фашисты.
@@ -236,61 +235,61 @@ Community Info
    государь, а есть его рабы.
    У фашиста - да, смена государства на страну - это предательство.
    Для нормального же человека это как поменять работу.
-     * [81]Reply
-     * [82]Parent
-     * [83]Thread
+     * Reply
+     * Parent
+     * Thread
      *
      __________________________________________________________________
 
-   [84][userinfo_v8.svg?v=17080?v=621] [85]atatatko
-   [86]2022-11-16 05:37 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] atatatko
+   2022-11-16 05:37 pm (UTC)
    Нацисткий выблядок, я предал твою фашистскую ублюдию, и горжусь этим.
    Сколько раз надо — столько и предам, понял, детоубийца, мразь?
-     * [87]Reply
-     * [88]Parent
-     * [89]Thread
+     * Reply
+     * Parent
+     * Thread
      *
      __________________________________________________________________
 
-   [90][userinfo_v8.svg?v=17080?v=621] [91]kh_sugutskiy
-   [92]2022-11-16 07:30 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] kh_sugutskiy
+   2022-11-16 07:30 pm (UTC)
    На хер мне твои дети. Ваши гандоны угрожали России. Мне насрать как ты
    там пашешь , я лично дома работаю три часа в день
-     * [93]Reply
-     * [94]Parent
-     * [95]Thread
+     * Reply
+     * Parent
+     * Thread
      *
      __________________________________________________________________
 
-   [96][google.svg?v=29916?v=621] [97]Vol Ubis
-   [98]2022-10-23 03:47 am (UTC)
+   [google.svg?v=29916?v=627.2] Vol Ubis
+   2022-10-23 03:47 am (UTC)
    Два мира - два Шапиро. Это читать гораздо приятнее, чем байки про
    миллионера, двадцать лет получающего гражданство Гренады)))
-     * [99]Reply
-     * [100]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [101][userinfo_v8.svg?v=17080?v=621] [102]moya_shweizaria
-   [103]2022-10-23 06:21 am (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] moya_shweizaria
+   2022-10-23 06:21 am (UTC)
    Давно уже описывали пути получения ВНЖ в странах Балтии, Испании. Не
    гражданство, но не всё сразу.
-     * [104]Reply
-     * [105]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [106][google.svg?v=29916?v=621] [107]Egor Konovalov
-   [108]2022-10-23 08:11 pm (UTC)
+   [google.svg?v=29916?v=627.2] Egor Konovalov
+   2022-10-23 08:11 pm (UTC)
    >работайте удалённо, желательно на северную америку а не на европу
    А с Европой что не так?
-     * [109]Reply
-     * [110]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [111][userinfo_v8.svg?v=17080?v=621] [112]qfero
-   [113]2022-10-25 07:26 am (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] qfero
+   2022-10-25 07:26 am (UTC)
 
    Вот это нормальный пост. А не пурга про "каждый может" и "стоит только
    захотеть".
@@ -299,13 +298,13 @@ Community Info
 
    Там была не авантюра, а очень неплохой замысел. Просто РФ очень сильно
    повезло.
-     * [114]Reply
-     * [115]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [116][userinfo_v8.svg?v=17080?v=621] [117]ahapen
-   [118]2022-10-31 01:28 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] ahapen
+   2022-10-31 01:28 pm (UTC)
    Эх, мне один проживающий в масквабаде родственник уже много лет капает
    на мозги этой Канадой, примерно с тех пор как я репатриировался в
    Украину, он меня регулярно уговаривал что типа надо двигаться дальше в
@@ -314,24 +313,24 @@ Community Info
    причина абсолютно не воспринимается той стороной), а тут началось
    полномасштабное вторжение и появился CUAET... в общем, пока спасает
    только ограничение на выезд как железобетонная отмазка)
-     * [119]Reply
-     * [120]Thread
+     * Reply
+     * Thread
      *
      __________________________________________________________________
 
-   [121][userinfo_v8.svg?v=17080?v=621] [122]blazzer
-   [123]2022-10-31 04:17 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] blazzer
+   2022-10-31 04:17 pm (UTC)
    cuaet не факт что будет продлён. это once in a lifetime opportunity
    реально, такие бенефиты и помощь от коммунки до того не давали никому и
    скорее всего больше никому никогда давать не будут.
-     * [124]Reply
-     * [125]Parent
-     * [126]Thread
+     * Reply
+     * Parent
+     * Thread
      *
      __________________________________________________________________
 
-   [127][userinfo_v8.svg?v=17080?v=621] [128]ahapen
-   [129]2022-10-31 05:50 pm (UTC)
+   [userinfo_v8.svg?v=17080?v=627.2] ahapen
+   2022-10-31 05:50 pm (UTC)
    Ну, учитывая в связи с чем возникла эта opportunity, лучше бы в нашем
    lifetime она не возникала..
    Ну а так, в принципе я до конца года наверно всё-таки подам заявку, во
@@ -345,13 +344,13 @@ Community Info
    получать разные визы, ну и вообще въезжать в "строгие" страны, имея в
    анамнезе канадскую визу (таким образом косвенно подтверждая, что у меня
    намерения нелегально иммигрировать ниже плинтуса).
-     * [130]Reply
-     * [131]Parent
-     * [132]Thread
+     * Reply
+     * Parent
+     * Thread
      *
      __________________________________________________________________
 
-   ( 14 comments — [133]Leave a comment )
+   ( 14 comments — Leave a comment )
      __________________________________________________________________
 
      * ←
@@ -360,86 +359,78 @@ Community Info
      __________________________________________________________________
 
    Links
-          [134]Тэги сообщества (как искать информацию)
-          [135]Куда валить из России?
-          [136]Как свалить из России?
-          [137]Пора валить в Facebook
-          [138]Пора валить вконтакте
-          [139]Как пожаловаться на тролля
+          Тэги сообщества (как искать информацию)
+          Куда валить из России?
+          Как свалить из России?
+          Пора валить в Facebook
+          Пора валить вконтакте
+          Как пожаловаться на тролля
      __________________________________________________________________
 
    Tags
-          [140]Россия, [141]США, [142]аргументы - за отъезд, [143]личный
-          опыт, [144]вопросы, [145]Германия, [146]вопросы - куда валить?,
-          [147]работа за границей, [148]видео, [149]Канада,
-          [150]менталитет, [151]статистика, [152]пора валить,
-          [153]сравнение, [154]размышления, [155]финансы - деньги,
-          [156]вопросы - как свалить?, [157]юмор, [158]Европа, [159]фото,
-          [160]образование, [161]эмиграция, [162]быт - недвижимость,
-          [163]политика - законы, [164]прогноз, [165]дети, [166]быт -
-          цены, [167]медицина, [168]Франция, [169]Испания, [170]…
+          Россия, США, аргументы - за отъезд, личный опыт, вопросы,
+          Германия, вопросы - куда валить?, работа за границей, видео,
+          Канада, менталитет, статистика, пора валить, сравнение,
+          размышления, финансы - деньги, вопросы - как свалить?, юмор,
+          Европа, фото, образование, эмиграция, быт - недвижимость,
+          политика - законы, прогноз, дети, быт - цены, медицина, Франция,
+          Испания, …
      __________________________________________________________________
 
    Categories
-          [171]it, [172]авиация, [173]авто, [174]армия, [175]архитектура,
-          [176]беларусь, [177]город, [178]дети, [179]еда, [180]животные,
-          [181]здоровье, [182]знаменитости, [183]искусство, [184]история,
-          [185]кино, [186]компьютеры, [187]корабли, [188]космос,
-          [189]криминал, [190]литература, [191]лытдыбр, [192]медицина,
-          [193]музыка, [194]напитки, [195]наука, [196]недвижимость,
-          [197]образование, [198]общество, [199]отношения, [200]политика,
-          [201]праздники, [202]природа, [203]производство,
-          [204]происшествия, [205]психология, [206]путешествия,
-          [207]работа, [208]религия, [209]россия, [210]семья, [211]спорт,
-          [212]ссср, [213]техника, [214]технологии, [215]транспорт,
-          [216]финансы, [217]экология, [218]экономика, [219]энергетика,
-          [220]юмор, [221]…
+          it, авиация, авто, армия, архитектура, беларусь, город, дети,
+          еда, животные, здоровье, знаменитости, искусство, история, кино,
+          компьютеры, корабли, космос, криминал, литература, лытдыбр,
+          медицина, музыка, напитки, наука, недвижимость, образование,
+          общество, отношения, политика, праздники, природа, производство,
+          происшествия, психология, путешествия, работа, религия, россия,
+          семья, спорт, ссср, техника, технологии, транспорт, финансы,
+          экология, экономика, энергетика, юмор, …
 
    Comments
 
           + pora_valit
-            [222][mailru.svg?v=12149?v=621] [223]С Б
-            5 Dec 2022, 17:13
-            [224]Реальный статус россии...
-            Ух какие тут бохцы с кговавым гежимом:D
-            Всего-то прошлогодние данные по сданным, строящимся и
-            законтрактованным кораблям (нюансик, с этого года расширение
-            этого скромного списка секретят):
-            10 х…
+            [userinfo_v8.svg?v=17080?v=627.2] oldowan
+            4 Jan 2023, 14:33
+            В РФ законодательно организован принудительный детский труд
+            Вами пускай занимается СБУ.
           + pora_valit
-            [225][userinfo_v8.svg?v=17080?v=621] [226]rsx11m
-            5 Dec 2022, 17:09
-            [227]Продолжим разговор о "великой российской культуре"?..
-            Прощай, дурачок.
-            Получишь значок.
+            [userinfo_v8.svg?v=17080?v=627.2] penetrat0r
+            2 Jan 2023, 09:50
+            Самый актуальный новогодний тост
+            Смотря от какого коллектива :)
           + pora_valit
-            [228][mailru.svg?v=12149?v=621] [229]С Б
-            5 Dec 2022, 17:08
-            [230]Продолжим разговор о "великой российской культуре"?..
-            Это был риторический вопрос. Вы бы обязательно это поняли,
-            если бы смогли и промолчали, но нет)
-            Уровень моего развития мне позволяет делать односторонние
-            выводы о том, является собеседник биомусором…
+            [userinfo_v8.svg?v=17080?v=627.2] penetrat0r
+            2 Jan 2023, 09:26
+            Вечерний Брюгге: про холодные, голодные и тёмные новогодние
+            праздники в Европе :)
+            LOOOL, а ничего, что на заднем плане машины видны? ЕМНИП, по
+            этой улочке даже автобус проезжает - но осторожно-осторожно,
+            факт.
+            Я к тому, что вряд ли стоит сравнивать специально подобранные
+            фотки из…
           + pora_valit
-            [231][userinfo_v8.svg?v=17080?v=621] [232]rsx11m
-            5 Dec 2022, 16:55
-            [233]Продолжим разговор о "великой российской культуре"?..
-            Какие именно буквы в моем коменте вызывают у Вас непонимание?
+            [userinfo_v8.svg?v=17080?v=627.2] aviator9298
+            2 Jan 2023, 05:49
+            В РФ законодательно организован принудительный детский труд
+            А мы деревья сажали, в мерзлую землю. Оно конечно можно было
+            бы и подождать пару недель, но нельзя Ленин родился 22 апреля,
+            субботник ленинский, как раз ко дню рождения вождя мирового
+            пролетариата.…
           + pora_valit
-            [234][mailru.svg?v=12149?v=621] [235]С Б
-            5 Dec 2022, 16:55
-            [236]Продолжим разговор о "великой российской культуре"?..
-            Очередная хохломрiя высасанная из, самим какелам решать чего))
-            Про Аллею Ангелов пост будет? Хотя марать память о ней вашими
-            рахитными ручонками не дело. Ничего, дело ближется к
-            логическому концу НГ…
+            [userinfo_v8.svg?v=17080?v=627.2] aviator9298
+            2 Jan 2023, 05:44
+            Вечерний Брюгге: про холодные, голодные и тёмные новогодние
+            праздники в Европе :)
+            Энергоемкие производства не проблема, проблема —
+            энергонеэффектмвеые. Ну тут тоже проблема решается, причём
+            быстро. Много оборудования модернизируется, много меняется на
+            более энергосберигаюшее и…
      __________________________________________________________________
 
-                              [237]реклама тут
+                                 реклама тут
                          "Пора валить" в соц. сетях.
-                                    [238]
-          [23966_900.png] [239][22910_900.png] [240][23318_900.png]
-                            [241][23665_900.png]
+       [23966_900.png] [22910_900.png] [23318_900.png] [23665_900.png]
 
                          Поиск по сообществу
                          ____________________ Найти
@@ -447,282 +438,19 @@ Community Info
                          Яндекс
      __________________________________________________________________
 
-   [242]
-   [5XSHAvkvKGD7AUXcjVyeWXLz_FRtpAfuvNFqgY1jyIcJfGtZsE4uiVH0JF0TBi9Yo1YFN5
-   uaJTVG8eWhSh2nzB_Mo5fVFFB6WleIH-MKNmE]
-   [243][5XSHAvkvKGD7AUXcjVyeWXLz_FRtpAfuvNFqgY1jyIcJfGtZsE4uiVH0JF0TBi9Yo
-   1YFN5uaJTVG8eWhSh2nzPN5Qcq9xuFUY_WrR3pxIYc]
+   [BOwYp1Ad-jPCU2f39bkkNppdJS8wQPNq9H4uBJz9CoSl-bYHCdcj8J4EaWiYLNDHmF7CND
+   E8U0i0uJ6L5AKQPDivxpZoYLL1n-mn14MMrkI]
+   [BOwYp1Ad-jPCU2f39bkkNppdJS8wQPNq9H4uBJz9CoSl-bYHCdcj8J4EaWiYLNDHmF7CND
+   E8U0i0uJ6L5AKQPHShU0_gZUYGchRR_NEfMOI]
      __________________________________________________________________
 
-   [244][5XSHAvkvKGD7AUXcjVyeWXLz_FRtpAfuvNFqgY1jyIcJfGtZsE4uiVH0JF0TBi9Yo
-   1YFN5uaJTVG8eWhSh2nzJM7guGIL6pq8q-xHYu3T3s]
+   [BOwYp1Ad-jPCU2f39bkkNppdJS8wQPNq9H4uBJz9CoSl-bYHCdcj8J4EaWiYLNDHmF7CND
+   E8U0i0uJ6L5AKQPJ5em2-Xhjm-VYinZ6zCiWM]
    Идет профилактика робота, возможны задержки реагирования.
-   [245]Яндекс.Метрика
+   Яндекс.Метрика
 
-   Powered by [246]LiveJournal.com
+   Powered by LiveJournal.com
 
    [12408565]
 
    Топ-100 [top100.cnt?pid=1111412]
-
-References
-
-   Visible links:
-   1. https://pora-valit.livejournal.com/data/foaf
-   2. file://www.googletagmanager.com/ns.html?id=GTM-KJBSQR
-   3. https://www.livejournal.com/
-   4. https://www.livejournal.com/2020/
-   5. https://www.livejournal.com/browse/
-   6. https://www.livejournal.com/syn
-   7. https://www.livejournal.com/shop/
-   8. https://www.livejournal.com/support/
-   9. https://www.livejournal.com/login.bml?returnto=https://pora-valit.livejournal.com/5118429.html&ret=1
-  10. https://www.livejournal.com/create
-  11. https://www.livejournal.com/manage/settings/?cat=display
-  12. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  13. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  14. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  15. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  16. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  17. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  18. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  19. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  20. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  21. https://pora-valit.livejournal.com/profile
-  22. https://pora-valit.livejournal.com/
-  23. https://pora-valit.livejournal.com/profile
-  24. https://pora-valit.livejournal.com/
-  25. https://pora-valit.livejournal.com/calendar?ila_campaign=control_strip
-  26. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  27. https://www.livejournal.com/create
-  28. https://www.livejournal.com/lostinfo.bml
-  29. https://www.livejournal.com/create
-  30. https://www.livejournal.com/legal/tos-en.bml
-  31. https://pora-valit.livejournal.com/
-  32. https://pora-valit.livejournal.com/friends
-  33. https://pora-valit.livejournal.com/calendar
-  34. https://pora-valit.livejournal.com/profile
-  35. file:///var/folders/t4/0dskm6yn4j1gjck5gzs4f6p40000gn/T/L41167-3445TMP.html
-  36. https://pora-valit.livejournal.com/data/rss
-  37. https://pora-valit.livejournal.com/profile
-  38. https://pora-valit.livejournal.com/
-  39. https://pora-valit.livejournal.com/5118019.html
-  40. https://www.livejournal.com/update.bml?repost_type=c&repost=https://pora-valit.livejournal.com/5118429.html&nodraft=1
-  41. https://www.livejournal.com/tools/content_flag.bml?user=pora_valit&itemid=5118429
-  42. https://pora-valit.livejournal.com/5118928.html
-  43. https://blazzer.livejournal.com/profile
-  44. https://blazzer.livejournal.com/
-  45. https://pora-valit.livejournal.com/profile
-  46. https://pora-valit.livejournal.com/
-  47. https://habr.com/ru/post/285938/
-  48. https://www.livejournal.com/shop/journalpromo.bml
-  49. https://pora-valit.livejournal.com/profile
-  50. https://pora-valit.livejournal.com/
-  51. https://pora-valit.livejournal.com/2284977.html#comments
-  52. https://www.livejournal.com/shop/journalpromo.bml?tab=order&journal=pora_valit
-  53. https://pora-valit.livejournal.com/2283618.html
-  54. https://www.livejournal.com/shop/journalpromo.bml
-  55. https://pora-valit.livejournal.com/2284977.html
-  56. https://pora-valit.livejournal.com/5118429.html?mode=reply
-  57. https://penetrat0r.livejournal.com/profile
-  58. https://penetrat0r.livejournal.com/
-  59. https://pora-valit.livejournal.com/5118429.html?thread=576522717#t576522717
-  60. https://pora-valit.livejournal.com/5118429.html?replyto=576522717
-  61. https://pora-valit.livejournal.com/5118429.html?thread=576522717#t576522717
-  62. https://nachni-dot-com.livejournal.com/profile
-  63. https://nachni-dot-com.livejournal.com/
-  64. https://pora-valit.livejournal.com/5118429.html?thread=576523997#t576523997
-  65. https://pora-valit.livejournal.com/5118429.html?replyto=576523997
-  66. https://pora-valit.livejournal.com/5118429.html?thread=576523997#t576523997
-  67. https://kh-sugutskiy.livejournal.com/profile
-  68. https://kh-sugutskiy.livejournal.com/
-  69. https://pora-valit.livejournal.com/5118429.html?thread=576524253#t576524253
-  70. https://pora-valit.livejournal.com/5118429.html?replyto=576524253
-  71. https://pora-valit.livejournal.com/5118429.html?thread=576524253#t576524253
-  72. https://penetrat0r.livejournal.com/profile
-  73. https://penetrat0r.livejournal.com/
-  74. https://pora-valit.livejournal.com/5118429.html?thread=576525533#t576525533
-  75. https://pora-valit.livejournal.com/5118429.html?replyto=576525533
-  76. https://pora-valit.livejournal.com/5118429.html?thread=576524253#t576524253
-  77. https://pora-valit.livejournal.com/5118429.html?thread=576525533#t576525533
-  78. https://oleg-sentia.livejournal.com/profile
-  79. https://oleg-sentia.livejournal.com/
-  80. https://pora-valit.livejournal.com/5118429.html?thread=576529373#t576529373
-  81. https://pora-valit.livejournal.com/5118429.html?replyto=576529373
-  82. https://pora-valit.livejournal.com/5118429.html?thread=576524253#t576524253
-  83. https://pora-valit.livejournal.com/5118429.html?thread=576529373#t576529373
-  84. https://atatatko.livejournal.com/profile
-  85. https://atatatko.livejournal.com/
-  86. https://pora-valit.livejournal.com/5118429.html?thread=576534749#t576534749
-  87. https://pora-valit.livejournal.com/5118429.html?replyto=576534749
-  88. https://pora-valit.livejournal.com/5118429.html?thread=576524253#t576524253
-  89. https://pora-valit.livejournal.com/5118429.html?thread=576534749#t576534749
-  90. https://kh-sugutskiy.livejournal.com/profile
-  91. https://kh-sugutskiy.livejournal.com/
-  92. https://pora-valit.livejournal.com/5118429.html?thread=576535261#t576535261
-  93. https://pora-valit.livejournal.com/5118429.html?replyto=576535261
-  94. https://pora-valit.livejournal.com/5118429.html?thread=576534749#t576534749
-  95. https://pora-valit.livejournal.com/5118429.html?thread=576535261#t576535261
-  96. https://www.livejournal.com/profile?userid=83635351&t=I
-  97. https://ext-4238352.livejournal.com/
-  98. https://pora-valit.livejournal.com/5118429.html?thread=576525277#t576525277
-  99. https://pora-valit.livejournal.com/5118429.html?replyto=576525277
- 100. https://pora-valit.livejournal.com/5118429.html?thread=576525277#t576525277
- 101. https://moya-shweizaria.livejournal.com/profile
- 102. https://moya-shweizaria.livejournal.com/
- 103. https://pora-valit.livejournal.com/5118429.html?thread=576526045#t576526045
- 104. https://pora-valit.livejournal.com/5118429.html?replyto=576526045
- 105. https://pora-valit.livejournal.com/5118429.html?thread=576526045#t576526045
- 106. https://www.livejournal.com/profile?userid=48742215&t=I
- 107. https://ext-1173257.livejournal.com/
- 108. https://pora-valit.livejournal.com/5118429.html?thread=576528605#t576528605
- 109. https://pora-valit.livejournal.com/5118429.html?replyto=576528605
- 110. https://pora-valit.livejournal.com/5118429.html?thread=576528605#t576528605
- 111. https://qfero.livejournal.com/profile
- 112. https://qfero.livejournal.com/
- 113. https://pora-valit.livejournal.com/5118429.html?thread=576530141#t576530141
- 114. https://pora-valit.livejournal.com/5118429.html?replyto=576530141
- 115. https://pora-valit.livejournal.com/5118429.html?thread=576530141#t576530141
- 116. https://ahapen.livejournal.com/profile
- 117. https://ahapen.livejournal.com/
- 118. https://pora-valit.livejournal.com/5118429.html?thread=576530653#t576530653
- 119. https://pora-valit.livejournal.com/5118429.html?replyto=576530653
- 120. https://pora-valit.livejournal.com/5118429.html?thread=576530653#t576530653
- 121. https://blazzer.livejournal.com/profile
- 122. https://blazzer.livejournal.com/
- 123. https://pora-valit.livejournal.com/5118429.html?thread=576530909#t576530909
- 124. https://pora-valit.livejournal.com/5118429.html?replyto=576530909
- 125. https://pora-valit.livejournal.com/5118429.html?thread=576530653#t576530653
- 126. https://pora-valit.livejournal.com/5118429.html?thread=576530909#t576530909
- 127. https://ahapen.livejournal.com/profile
- 128. https://ahapen.livejournal.com/
- 129. https://pora-valit.livejournal.com/5118429.html?thread=576531165#t576531165
- 130. https://pora-valit.livejournal.com/5118429.html?replyto=576531165
- 131. https://pora-valit.livejournal.com/5118429.html?thread=576530909#t576530909
- 132. https://pora-valit.livejournal.com/5118429.html?thread=576531165#t576531165
- 133. https://pora-valit.livejournal.com/5118429.html?mode=reply
- 134. http://pora-valit.livejournal.com/2284977.html
- 135. http://pora-valit.livejournal.com/tag/куда валить
- 136. http://pora-valit.livejournal.com/tag/как свалить
- 137. https://www.facebook.com/groups/poravalit
- 138. http://vkontakte.ru/pora.valit
- 139. http://pora-valit.livejournal.com/3555529.html
- 140. https://pora-valit.livejournal.com/tag/Россия
- 141. https://pora-valit.livejournal.com/tag/США
- 142. https://pora-valit.livejournal.com/tag/аргументы - за отъезд
- 143. https://pora-valit.livejournal.com/tag/личный опыт
- 144. https://pora-valit.livejournal.com/tag/вопросы
- 145. https://pora-valit.livejournal.com/tag/Германия
- 146. https://pora-valit.livejournal.com/tag/вопросы - куда валить?
- 147. https://pora-valit.livejournal.com/tag/работа за границей
- 148. https://pora-valit.livejournal.com/tag/видео
- 149. https://pora-valit.livejournal.com/tag/Канада
- 150. https://pora-valit.livejournal.com/tag/менталитет
- 151. https://pora-valit.livejournal.com/tag/статистика
- 152. https://pora-valit.livejournal.com/tag/пора валить
- 153. https://pora-valit.livejournal.com/tag/сравнение
- 154. https://pora-valit.livejournal.com/tag/размышления
- 155. https://pora-valit.livejournal.com/tag/финансы - деньги
- 156. https://pora-valit.livejournal.com/tag/вопросы - как свалить?
- 157. https://pora-valit.livejournal.com/tag/юмор
- 158. https://pora-valit.livejournal.com/tag/Европа
- 159. https://pora-valit.livejournal.com/tag/фото
- 160. https://pora-valit.livejournal.com/tag/образование
- 161. https://pora-valit.livejournal.com/tag/эмиграция
- 162. https://pora-valit.livejournal.com/tag/быт - недвижимость
- 163. https://pora-valit.livejournal.com/tag/политика - законы
- 164. https://pora-valit.livejournal.com/tag/прогноз
- 165. https://pora-valit.livejournal.com/tag/дети
- 166. https://pora-valit.livejournal.com/tag/быт - цены
- 167. https://pora-valit.livejournal.com/tag/медицина
- 168. https://pora-valit.livejournal.com/tag/Франция
- 169. https://pora-valit.livejournal.com/tag/Испания
- 170. https://pora-valit.livejournal.com/tag
- 171. https://pora-valit.livejournal.com/category/it
- 172. https://pora-valit.livejournal.com/category/авиация
- 173. https://pora-valit.livejournal.com/category/авто
- 174. https://pora-valit.livejournal.com/category/армия
- 175. https://pora-valit.livejournal.com/category/архитектура
- 176. https://pora-valit.livejournal.com/category/беларусь
- 177. https://pora-valit.livejournal.com/category/город
- 178. https://pora-valit.livejournal.com/category/дети
- 179. https://pora-valit.livejournal.com/category/еда
- 180. https://pora-valit.livejournal.com/category/животные
- 181. https://pora-valit.livejournal.com/category/здоровье
- 182. https://pora-valit.livejournal.com/category/знаменитости
- 183. https://pora-valit.livejournal.com/category/искусство
- 184. https://pora-valit.livejournal.com/category/история
- 185. https://pora-valit.livejournal.com/category/кино
- 186. https://pora-valit.livejournal.com/category/компьютеры
- 187. https://pora-valit.livejournal.com/category/корабли
- 188. https://pora-valit.livejournal.com/category/космос
- 189. https://pora-valit.livejournal.com/category/криминал
- 190. https://pora-valit.livejournal.com/category/литература
- 191. https://pora-valit.livejournal.com/category/лытдыбр
- 192. https://pora-valit.livejournal.com/category/медицина
- 193. https://pora-valit.livejournal.com/category/музыка
- 194. https://pora-valit.livejournal.com/category/напитки
- 195. https://pora-valit.livejournal.com/category/наука
- 196. https://pora-valit.livejournal.com/category/недвижимость
- 197. https://pora-valit.livejournal.com/category/образование
- 198. https://pora-valit.livejournal.com/category/общество
- 199. https://pora-valit.livejournal.com/category/отношения
- 200. https://pora-valit.livejournal.com/category/политика
- 201. https://pora-valit.livejournal.com/category/праздники
- 202. https://pora-valit.livejournal.com/category/природа
- 203. https://pora-valit.livejournal.com/category/производство
- 204. https://pora-valit.livejournal.com/category/происшествия
- 205. https://pora-valit.livejournal.com/category/психология
- 206. https://pora-valit.livejournal.com/category/путешествия
- 207. https://pora-valit.livejournal.com/category/работа
- 208. https://pora-valit.livejournal.com/category/религия
- 209. https://pora-valit.livejournal.com/category/россия
- 210. https://pora-valit.livejournal.com/category/семья
- 211. https://pora-valit.livejournal.com/category/спорт
- 212. https://pora-valit.livejournal.com/category/ссср
- 213. https://pora-valit.livejournal.com/category/техника
- 214. https://pora-valit.livejournal.com/category/технологии
- 215. https://pora-valit.livejournal.com/category/транспорт
- 216. https://pora-valit.livejournal.com/category/финансы
- 217. https://pora-valit.livejournal.com/category/экология
- 218. https://pora-valit.livejournal.com/category/экономика
- 219. https://pora-valit.livejournal.com/category/энергетика
- 220. https://pora-valit.livejournal.com/category/юмор
- 221. https://pora-valit.livejournal.com/category
- 222. https://www.livejournal.com/profile?userid=50795829&t=I
- 223. https://ext-1283714.livejournal.com/
- 224. https://pora-valit.livejournal.com/5120278.html?thread=576573206#t576573206
- 225. https://rsx11m.livejournal.com/profile
- 226. https://rsx11m.livejournal.com/
- 227. https://pora-valit.livejournal.com/5120250.html?thread=576573178#t576573178
- 228. https://www.livejournal.com/profile?userid=50795829&t=I
- 229. https://ext-1283714.livejournal.com/
- 230. https://pora-valit.livejournal.com/5120250.html?thread=576572922#t576572922
- 231. https://rsx11m.livejournal.com/profile
- 232. https://rsx11m.livejournal.com/
- 233. https://pora-valit.livejournal.com/5120250.html?thread=576572666#t576572666
- 234. https://www.livejournal.com/profile?userid=50795829&t=I
- 235. https://ext-1283714.livejournal.com/
- 236. https://pora-valit.livejournal.com/5120250.html?thread=576572410#t576572410
- 237. http://store.pora-valit.com/product-category/lj/
- 238. http://vk.com/pora.valit
- 239. https://www.facebook.com/groups/poravalit/
- 240. http://ok.ru/group/53727360581870
- 241. http://pora-valit.livejournal.com/data/rss
- 242. http://www.whiteisland.cc/
- 243. http://www.poravalit.com/
- 244. http://pora-valit.livejournal.com/3555529.html
- 245. http://metrika.yandex.ru/stat/?id=12408565&from=informer
- 246. https://www.livejournal.com/
-
-   Hidden links:
- 248. https://www.livejournal.com/login.bml
- 249. https://www.livejournal.com/identity/login.bml?type=google&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 250. https://www.livejournal.com/identity/login.bml?type=facebook&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 251. https://www.livejournal.com/identity/login.bml?type=vkontakte&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 252. https://www.livejournal.com/identity/login.bml?type=twitter&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 253. https://www.livejournal.com/identity/login.bml?type=mailru&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 254. https://www.livejournal.com/identity/login.bml?type=rambler&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 255. https://www.livejournal.com/identity/login.bml?type=openid&auto_forwhat=user%24pora-valit%24%2F5118429.html
- 256. https://pora-valit.livejournal.com/5118429.html
- 257. https://www.livejournal.com/shop/journalpromo.bml

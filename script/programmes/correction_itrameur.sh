@@ -3,7 +3,7 @@
 #этот скрипт должен открываться с racine папки 
 # $ ./programmes/correction_itrameur.sh
 
-if [ []$# -ne 2]
+if [[ $# -ne 2 ]]
 then
 	echo "Deux arguments attendus : <dossier> <langue>"
 	exit

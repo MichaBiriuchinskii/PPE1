@@ -4,13 +4,13 @@
 
 Аналитика
 
-     * USD62.91
-     * EUR66.11
+     * USD70.34
+     * EUR75.66
      * OIL95.88
 
-   [1]Поддержите нас [2]English (BUTTON)
+   Поддержите нас English (BUTTON)
    (BUTTON)
-     * 5724
+     * 5729
      *
      *
      *
@@ -18,11 +18,9 @@
      *
 
    [anBlZw.jpg]
-   [3]Общество
+   Общество
 
 Залечь на дно в Тбилиси: жизнь политических эмигрантов в Грузии
-
-   [4]
 
 The Insider
 
@@ -60,7 +58,7 @@ The Insider
      *
      *
 
-   [5]О проекте[6]Политика конфиденциальности
+   О проектеПолитика конфиденциальности
      *
      *
      *
@@ -71,47 +69,11 @@ The Insider
      * 18+
 
    2022 The Insider
-   [7]Deposit Photos
+   Deposit Photos
 
-   Сделано в [8]Charmer
+   Сделано в Charmer
 
    К сожалению, браузер, которым вы пользуйтесь, устарел и не позволяет
    корректно отображать сайт. Пожалуйста, установите любой из современны�
    браузеров, например:
-   [9]Google Chrome [10]Firefox [11]Safari
-
-References
-
-   Visible links:
-   1. https://donate.theins.ru/
-   2. file:///en
-   3. file:///obshestvo
-   4. file:///authors/the-insider
-   5. file:///about
-   6. file:///terms
-   7. https://ru.depositphotos.com/
-   8. https://charmerstudio.com/
-   9. https://www.google.ru/chrome/browser/desktop/
-  10. https://www.mozilla.org/ru/firefox/new/
-  11. https://www.apple.com/safari
-
-   Hidden links:
-  13. file://localhost/
-  14. file://www.facebook.com/sharer/sharer.php?u=
-  15. file://twitter.com/share?url=
-  16. file://vk.com/share.php?url=
-  17. file://odnoklassniki.ru/dk?st.cmd=addShare&st.s=
-  18. file://telegram.me/share/url?url=https%3A%2F%2Ft.me%2Fiv%3Furl%3D%26rhash%3D4c41b9d8085adb
-  19. http://donate.theins.ru/
-  20. file://www.facebook.com/sharer/sharer.php?u=
-  21. file://twitter.com/share?url=
-  22. file://vk.com/share.php?url=
-  23. file://odnoklassniki.ru/dk?st.cmd=addShare&st.s=
-  24. file://telegram.me/share/url?url=https%3A%2F%2Ft.me%2Fiv%3Furl%3D%26rhash%3D4c41b9d8085adb
-  25. https://www.facebook.com/TheInsiderRussia/
-  26. https://twitter.com/the_ins_ru
-  27. https://vk.com/theinsiders
-  28. https://www.instagram.com/the_insider_rus/?hl=ru
-  29. https://t.me/theinsider
-  30. https://ok.ru/theinsider
-  31. https://www.youtube.com/c/TheInsiderVideo?sub_confirmation=1
+   Google Chrome Firefox Safari

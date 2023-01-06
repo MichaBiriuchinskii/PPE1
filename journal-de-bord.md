@@ -62,4 +62,12 @@ https://michabiriuchinskii.github.io/PPE1/
 -Ajouter de nouvelles colonnes au tableau
 -Mise à jour de la mise en page du site
 -Créer de nouveaux dossiers
--chargement des documents récupérés par le script
+-Chargement des documents récupérés par le script
+
+ — 6 Janvier —
+ -Optimisation des tableaux
+-Résoudre les problèmes liés à l'encodage des fichiers de dump
+-Résolution des problèmes de récupération des pages html
+-Réparation de la requête sed à la commande gsed
+-Rendre le code plus lisible
+-Mise à jour des tableaux et des fichiers de tableaux

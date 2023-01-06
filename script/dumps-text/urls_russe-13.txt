@@ -4,13 +4,13 @@
 
 Аналитика
 
-     * USD62.91
-     * EUR66.11
+     * USD70.34
+     * EUR75.66
      * OIL95.88
 
-   [1]Поддержите нас [2]English (BUTTON)
+   Поддержите нас English (BUTTON)
    (BUTTON)
-     * 14117
+     * 14195
      *
      *
      *
@@ -18,12 +18,10 @@
      *
 
    [cG5n.jpg]
-   [3]Общество
+   Общество
 
 «У Путина не осталось никакой повестки, кроме насилия». Виктор Шендерович об
 эмиграции и будущем России
-
-   [4]
 
 Оксана Баулина
 
@@ -35,7 +33,7 @@
    оптика и акустика, почему политическая сатира перестала быть смешной и
    что будет, когда Путин исчезнет.
 
-   Видеоверсия интервью [5]здесь
+   Видеоверсия интервью здесь
 
 — Мы наблюдаем очередной «философский пароход», новую волну эмиграции
 интеллигенции из России. Уезжают не только политики, активисты и журналисты.
@@ -388,7 +386,7 @@
      *
      *
 
-   [6]О проекте[7]Политика конфиденциальности
+   О проектеПолитика конфиденциальности
      *
      *
      *
@@ -399,48 +397,11 @@
      * 18+
 
    2022 The Insider
-   [8]Deposit Photos
+   Deposit Photos
 
-   Сделано в [9]Charmer
+   Сделано в Charmer
 
    К сожалению, браузер, которым вы пользуйтесь, устарел и не позволяет
    корректно отображать сайт. Пожалуйста, установите любой из современны�
    браузеров, например:
-   [10]Google Chrome [11]Firefox [12]Safari
-
-References
-
-   Visible links:
-   1. https://donate.theins.ru/
-   2. file:///en
-   3. file:///obshestvo
-   4. file:///authors/oksana-baulina
-   5. https://youtu.be/L-j6NADH1SI
-   6. file:///about
-   7. file:///terms
-   8. https://ru.depositphotos.com/
-   9. https://charmerstudio.com/
-  10. https://www.google.ru/chrome/browser/desktop/
-  11. https://www.mozilla.org/ru/firefox/new/
-  12. https://www.apple.com/safari
-
-   Hidden links:
-  14. file://localhost/
-  15. file://www.facebook.com/sharer/sharer.php?u=
-  16. file://twitter.com/share?url=
-  17. file://vk.com/share.php?url=
-  18. file://odnoklassniki.ru/dk?st.cmd=addShare&st.s=
-  19. file://telegram.me/share/url?url=https%3A%2F%2Ft.me%2Fiv%3Furl%3D%26rhash%3D4c41b9d8085adb
-  20. http://donate.theins.ru/
-  21. file://www.facebook.com/sharer/sharer.php?u=
-  22. file://twitter.com/share?url=
-  23. file://vk.com/share.php?url=
-  24. file://odnoklassniki.ru/dk?st.cmd=addShare&st.s=
-  25. file://telegram.me/share/url?url=https%3A%2F%2Ft.me%2Fiv%3Furl%3D%26rhash%3D4c41b9d8085adb
-  26. https://www.facebook.com/TheInsiderRussia/
-  27. https://twitter.com/the_ins_ru
-  28. https://vk.com/theinsiders
-  29. https://www.instagram.com/the_insider_rus/?hl=ru
-  30. https://t.me/theinsider
-  31. https://ok.ru/theinsider
-  32. https://www.youtube.com/c/TheInsiderVideo?sub_confirmation=1
+   Google Chrome Firefox Safari
