@@ -71,3 +71,10 @@ https://michabiriuchinskii.github.io/PPE1/
 - Réparation de la requête sed à la commande gsed
 - Rendre le code plus lisible
 - Mise à jour des tableaux et des fichiers de tableaux
+
+ — 9 Janvier —
+ - Scripts de connexion
+- Analyse de l'itrameur
+- Création de nuages de mots (code final affiché sur la page du groupe -amélioré)
+- Développement d'une page web
+ 

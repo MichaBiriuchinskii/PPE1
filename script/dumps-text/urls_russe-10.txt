@@ -165,7 +165,7 @@ Community Info
 
      * Current price100 LJ Tokens
      * Social capital1 443
-     * Community readers2 500+
+     * Community readers
      * Duration24 hours
      * Minimal stake100 LJT
      * Rules
@@ -438,14 +438,14 @@ Community Info
                          Яндекс
      __________________________________________________________________
 
-   [BOwYp1Ad-jPCU2f39bkkNppdJS8wQPNq9H4uBJz9CoSl-bYHCdcj8J4EaWiYLNDHmF7CND
-   E8U0i0uJ6L5AKQPDivxpZoYLL1n-mn14MMrkI]
-   [BOwYp1Ad-jPCU2f39bkkNppdJS8wQPNq9H4uBJz9CoSl-bYHCdcj8J4EaWiYLNDHmF7CND
-   E8U0i0uJ6L5AKQPHShU0_gZUYGchRR_NEfMOI]
+   [3seFFfbd4rLRUxImSYNqOhrAbKpDlZzCxjeinGp4oRrYlNeI1cQfazZ5_tuuszSGYjfAhW
+   RejVhLshxW3ZsmgIvgpN3e2dEyyuyHO6YyzBI]
+   [3seFFfbd4rLRUxImSYNqOhrAbKpDlZzCxjeinGp4oRrYlNeI1cQfazZ5_tuuszSGYjfAhW
+   RejVhLshxW3ZsmgGPam8DLp35saTjw5Zb3T4w]
      __________________________________________________________________
 
-   [BOwYp1Ad-jPCU2f39bkkNppdJS8wQPNq9H4uBJz9CoSl-bYHCdcj8J4EaWiYLNDHmF7CND
-   E8U0i0uJ6L5AKQPJ5em2-Xhjm-VYinZ6zCiWM]
+   [3seFFfbd4rLRUxImSYNqOhrAbKpDlZzCxjeinGp4oRrYlNeI1cQfazZ5_tuuszSGYjfAhW
+   RejVhLshxW3ZsmgKALQxfR3CSCoYl4cC_xMY8]
    Идет профилактика робота, возможны задержки реагирования.
    Яндекс.Метрика
 

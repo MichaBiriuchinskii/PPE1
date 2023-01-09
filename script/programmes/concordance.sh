@@ -38,13 +38,12 @@ echo 	"
 									<thead>
 									<tr>
 									<th class=\"has-text-right\">Contexte gauche</th>
-									<th>Cible</th>
+									<th class=\"has-text-centered\">Cible</th>
 									<th class=\"has-text-left\">Contexte droit</th>
 									</tr>
 									</thead>
 									" 
-									
-grep -E -o "(\w+\W+){0,5}\b$motif\b(\W+\w+){0,5}" $fichier_text | gsed -E "s/(.*)$motif(.*)/<tr><td class="has-text-right">\1<\/td><td class="has-text-danger">\2<\/td><td class="has-text-left">\3<\/td><\/tr>/" #какая-то хрень с sed не работает тут
+grep -E -o "(\w+\W+){0,5}\b$motif\b(\W+\w+){0,5}" $fichier_text | gsed -E "s/(.*)$motif(.*)/<tr><td class="has-text-right">\1<\/td><td class="has-text-danger has-text-centered">\2<\/td><td class="has-text-left">\3<\/td><\/tr>/" #какая-то хрень с sed не работает тут
 
 echo "		</table>
 	        </body>

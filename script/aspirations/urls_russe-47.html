@@ -257,9 +257,29 @@ width:99.5%;
 		width:100%!important;
 		float:none!important;	
 	}
-	}
+	}
+.qtip{width:95%!important;max-width:200px;}.qtip-default .qtip-titlebar{
+					background-color:#F1F1F1;
+					color:#444444;
+					border-color: #E2E2E2;	
+					}
+					.qtip-content
+					{
+					background-color:#FFFFFF;
+					color:#444444;
+					border-color: #E2E2E2;	
+					}
+					.qtip-default
+					{
+					background-color:#F1F1F1;
+					border:1px solid #E2E2E2;
+					color:#444444;
+					font-size:12px;
+					}
+					
+					
 	</style>
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"2b64074e1c8b1f6cd21a39c31246a776","system.paths":{"root":"","base":""}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"5848feb57ad7ca6a4f2e2605aaac95f7","system.paths":{"root":"","base":""}}</script>
 	<script src="/media/jui/js/jquery.min.js?35d7e6a17db77637d2f1296800487563" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-noconflict.js?35d7e6a17db77637d2f1296800487563" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-migrate.min.js?35d7e6a17db77637d2f1296800487563" type="text/javascript"></script>
@@ -342,7 +362,30 @@ $GK_URL = "https://rua.gr/";
 		"0",	
 		"Add to compare",
 		"Remove to compare"	
-	];function do_nothing() { return; }
+	];jQuery(document).ready(function() {jQuery('.mytool a,.mytool abbr').qtip({
+			style: { classes: 'qtip-plain' },
+			position: {
+				   my: 'bottom center',
+				   at:'top center',
+				   target: 'mouse' ,
+				   viewport: jQuery(window),
+					adjust: {
+					    method: 'flipinvert'
+					}
+			},
+			content: {      
+			    text: function(event, api) {
+		        return jQuery(this).attr('title');
+			},
+			title: function(event, api) {
+		        return jQuery(this).text();
+			}
+			
+			},
+				hide: {
+				delay: '500'
+				}
+			})});function do_nothing() { return; }
 	</script>
 	<script type="application/x-k2-headers">
 {"Last-Modified": "Mon, 02 Jan 2023 12:37:00 GMT", "ETag": "d88faf921f3b8053b7309c54f44b6a39"}
@@ -634,7 +677,7 @@ enable_page_level_ads: true
 																											<li class="itemAuthor"> Автор&nbsp;
 																								<a rel="author" href="/news/migrantskij-front/author/72-pavelonoyko.html">Павел Онойко</a>
 																					</li>
-																											<li class="itemHitsBlock"><span class="itemHits"><img src="/templates/gk_news/html/com_k2/templates/eye.png" alt="Просмотров"> <span id="k2hits"> 1321</span>
+																											<li class="itemHitsBlock"><span class="itemHits"><img src="/templates/gk_news/html/com_k2/templates/eye.png" alt="Просмотров"> <span id="k2hits"> 1325</span>
 									</span> </li>
 						</ul>
 									</header>
@@ -2739,27 +2782,27 @@ box-shadow: 2px 4px 4px 0px #edf0f3;
 	list-style: none;
 	float: left;
 }
-#mod_mt_listings63b82fafbca9c li {
+#mod_mt_listings63b84f5eea527 li {
 	width: 100%;
 clear: both;
 }
 .mod_mt_listings.tiles li.showmore {
 	clear: both;
 }
-#mod_mt_listings63b82fafbca9c li a img {
+#mod_mt_listings63b84f5eea527 li a img {
 	width: 50px;
 	height: 50px;
 }
-#mod_mt_listings63b82fafbca9c.mod_mt_listings.tiles .name {
+#mod_mt_listings63b84f5eea527.mod_mt_listings.tiles .name {
 	text-align:left;
 }
-#mod_mt_listings63b82fafbca9c.mod_mt_listings.tiles .name {
+#mod_mt_listings63b84f5eea527.mod_mt_listings.tiles .name {
 	display:block;;
 }
-#mod_mt_listings63b82fafbca9c.mod_mt_listings.tiles li small {
+#mod_mt_listings63b84f5eea527.mod_mt_listings.tiles li small {
 	display:block;;
 }
-#mod_mt_listings63b82fafbca9c.mod_mt_listings.tiles li a.top-listing-thumb {
+#mod_mt_listings63b84f5eea527.mod_mt_listings.tiles li a.top-listing-thumb {
 	width: 50px;
 	vertical-align:top;
 	float:left;
@@ -2769,15 +2812,15 @@ clear: both;
 	padding:2px;
 	margin-bottom:.5em;
 }
-#mod_mt_listings63b82fafbca9c.mod_mt_listings.tiles li small {
+#mod_mt_listings63b84f5eea527.mod_mt_listings.tiles li small {
 	display:block;
 	line-height:1.6em;
 	font-size:.9em;
 }
 
 </style>
-<ul id="mod_mt_listings63b82fafbca9c" class="mod_mt_listings tiles">
-<li class="first"><a class="top-listing-thumb" href="/catalog/nedvizhimost/649-vsya-nedvizhimost-gretsii-rondyak-real-estate.html"><img align="bottom" border="0" src="https://rua.gr/media/com_mtree/images/listings/s/400.jpg" alt="Агентство недвижимости Rondyak Real Estate" /></a><a href="/catalog/nedvizhimost/649-vsya-nedvizhimost-gretsii-rondyak-real-estate.html" class="name">Агентство недвижимости...</a></li></ul></div></div><div class="box  ads"><div class="content">
+<ul id="mod_mt_listings63b84f5eea527" class="mod_mt_listings tiles">
+<li class="first"><a class="top-listing-thumb" href="/catalog/health/narkologi/1560-nevrologicheskaya-klinika-asklipiu.html"><img align="bottom" border="0" src="https://rua.gr/media/com_mtree/images/listings/s/2129.jpg" alt="Неврологическая клиника Асклипиу" /></a><a href="/catalog/health/narkologi/1560-nevrologicheskaya-klinika-asklipiu.html" class="name">Неврологическая клиника...</a></li></ul></div></div><div class="box  ads"><div class="content">
 
 <div class="custom ads"  >
 
@@ -2785,15 +2828,14 @@ clear: both;
 </div>
 </div></div><div class="box "><h3 class="header">Советы Юриста главная</h3><div class="content">	<ul class="mod_smfaq">
 					<li class="list-item">
-									<p class="question-label" onclick="location.href='/law/lawcons/semejnoe-pravo/1513.html'">
-						<strong>Вопрос: </strong><span class="question-content"  title="Здравствуйте. Я уже задавала этот вопрос, но почему-то он остался без внимания. Когда я ехала на автобусе из Одессы в Афины ( через Молдавию, Румынию и Болгарию) мне сразу сказали, что в Румынии и Болгарии на границах с моим бле вевеоси меня не пропустят. Содрали по 50 евро за каждую границу... Я звонила в посольство Болгарии в Одессе, чтоб узнать, нужна ли болгарская виза, чтоб транзитом проехать через страну. Объяснила, что у меня бле вевеоси и я еду домой в Афины. Мне ответили, что визу делать надо. Озвучили стоимости и т.д. В связи с этим возникает вопрос : как проехать через эти границы с бле вевеоси, если прямо в лицо говорят, что вас с ними не пропустят без взятки. С пограничниками тоже не хочется иметь проблемы. Что вы можете посоветывать? Спасибо.">Здравствуйте. Я уже задавала этот вопрос, но почему-то он остался без внимания. Когда я ехала на авт...</span>
+									<p class="question-label" onclick="location.href='/law/lawcons/semejnoe-pravo/1910.html'">
+						<strong>Вопрос: </strong><span class="question-content"  title="Здравствуйте! я родилась в Казахстане в 1992 году.в 2005 году переехала в Греции. Уже 11 лет я живу в Греции без постоянного места жительства и без паспорта. Проблема в том что моя мать по личным причинам не хочет помочь мне с документами. есть ли способ сделать документы без ее сопровождения. Заранее спасибо.
+Elizabeth">Здравствуйте! я родилась в Казахстане в 1992 году.в 2005 году переехала в Греции. Уже 11 лет я живу ...</span>
 					</p>
 											</li>
 					<li class="list-item">
-									<p class="question-label" onclick="location.href='/law/lawcons/semejnoe-pravo/540.html'">
-						<strong>Вопрос: </strong><span class="question-content"  title="Добрый день! Я гражданка РФ мой муж грек. Сейчас ожидаем рождение малыша. У меня имеется адиа дьямунис временная (ожидаю получения постоянного), страхованная в  IKA на мужа. Рабочего стажа в Греции нет. Подскажите, пожалуйста, полагаются какие-либо выплаты после рождения ребенка, если да, то куда следует обратиться и какой необходим пакет документов. Рожать будем в платной клинике. Я слышала, что после рождения, какая то часть денежных средств возвращается за клинику. Так ли это.  
-И еще один вопрос, брак заключен на территории Греции, каким образом можно упростить процедуру вьезда моего мужа на территорию РФ(посещение моих родственников), какие документы необходимы и куда обращаться. 
-Спасибо! ">Добрый день! Я гражданка РФ мой муж грек. Сейчас ожидаем рождение малыша. У меня имеется адиа дьямун...</span>
+									<p class="question-label" onclick="location.href='/law/lawcons/semejnoe-pravo/1397.html'">
+						<strong>Вопрос: </strong><span class="question-content"  title="Добрый день! Мой жених - негражданин Латвии, живёт в Греции 10 лет, я гражданка России. На каком основании я могу к нему перехать в Грецию после оформления брака? Ориентироваться на схему "восстановлении семьи" для иностранных граждан, которую Вы приводите? Или другие варианты? Нужно ли рассматривать вариант -  сделать латышский ВНЖ и с ним проживать в Греции? Или есть схемы проще? Заранее спасибо! ">Добрый день! Мой жених - негражданин Латвии, живёт в Греции 10 лет, я гражданка России. На каком осн...</span>
 					</p>
 											</li>
 			</ul>
@@ -2861,39 +2903,39 @@ clear: both;
 				//-->
 				</script><script type="text/javascript">
 				<!--
-					acymailingModule['reqFieldsformAcymailing71291'] = Array('name','html');
-		acymailingModule['validFieldsformAcymailing71291'] = Array('Пожалуйста, введите значение для поля Имя','Пожалуйста, введите значение для поля Получить');
+					acymailingModule['reqFieldsformAcymailing55331'] = Array('name','html');
+		acymailingModule['validFieldsformAcymailing55331'] = Array('Пожалуйста, введите значение для поля Имя','Пожалуйста, введите значение для поля Получить');
 				//-->
-					</script><div class="acymailing_module" id="acymailing_module_formAcymailing71291">
-	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing71291" style="text-align:center" >
-		<form id="formAcymailing71291" action="/athina.html" onsubmit="return submitacymailingform('optin','formAcymailing71291')" method="post" name="formAcymailing71291"  >
+					</script><div class="acymailing_module" id="acymailing_module_formAcymailing55331">
+	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing55331" style="text-align:center" >
+		<form id="formAcymailing55331" action="/help/hotphone.html" onsubmit="return submitacymailingform('optin','formAcymailing55331')" method="post" name="formAcymailing55331"  >
 		<div class="acymailing_module_form" >
 			<div class="acymailing_introtext"><p>Не пропусти другие интересные статьи, подпишись:</p></div>			<table class="acymailing_form">
 				<tr>
 													<td class="acyfield_email acy_requiredField">
-								<input id="user_email_formAcymailing71291"  style="width:200px" onfocus="if(this.value == 'Введите ваш email адрес:') this.value = '';" onblur="if(this.value=='') this.value='Введите ваш email адрес:';" type="text" class="inputbox required" name="user[email]" value="Введите ваш email адрес:" title="Введите ваш email адрес:"/>								</td></tr><tr>
+								<input id="user_email_formAcymailing55331"  style="width:200px" onfocus="if(this.value == 'Введите ваш email адрес:') this.value = '';" onblur="if(this.value=='') this.value='Введите ваш email адрес:';" type="text" class="inputbox required" name="user[email]" value="Введите ваш email адрес:" title="Введите ваш email адрес:"/>								</td></tr><tr>
 					
 					<td  class="acysubbuttons">
-												<input class="button subbutton btn btn-primary" type="submit" value="Подписаться" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing71291'); }catch(err){alert('The form could not be submitted '+err);return false;}"/>
+												<input class="button subbutton btn btn-primary" type="submit" value="Подписаться" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing55331'); }catch(err){alert('The form could not be submitted '+err);return false;}"/>
 											</td>
 				</tr>
 			</table>
 			<script type="text/javascript">
 						<!--
 						
-acymailingModule['excludeValuesformAcymailing71291'] = [];
-acymailingModule['excludeValuesformAcymailing71291']['email'] = 'Введите ваш email адрес:';
+acymailingModule['excludeValuesformAcymailing55331'] = [];
+acymailingModule['excludeValuesformAcymailing55331']['email'] = 'Введите ваш email адрес:';
 
 						//-->
 						</script>			<input type="hidden" name="ajax" value="1" />
 			<input type="hidden" name="acy_source" value="module_621" />
 			<input type="hidden" name="ctrl" value="sub"/>
 			<input type="hidden" name="task" value="notask"/>
-			<input type="hidden" name="redirect" value="https%3A%2F%2Frua.gr%2Fathina%2Fauthor%2F7245-2023-01-06-14-26-55.html"/>
-			<input type="hidden" name="redirectunsub" value="https%3A%2F%2Frua.gr%2Fathina%2Fauthor%2F7245-2023-01-06-14-26-55.html"/>
+			<input type="hidden" name="redirect" value="https%3A%2F%2Frua.gr%2Fhelp%2Fhotphone.html"/>
+			<input type="hidden" name="redirectunsub" value="https%3A%2F%2Frua.gr%2Fhelp%2Fhotphone.html"/>
 			<input type="hidden" name="option" value="com_acymailing"/>
 						<input type="hidden" name="hiddenlists" value="2"/>
-			<input type="hidden" name="acyformname" value="formAcymailing71291" />
+			<input type="hidden" name="acyformname" value="formAcymailing55331" />
 									</div>
 		</form>
 	</div>
@@ -2937,7 +2979,7 @@ acymailingModule['excludeValuesformAcymailing71291']['email'] = 'Введите 
     Адрес:
     <span>ул. Каниггос 19, 1-й этаж</span><span> 10677</span> <span>Афины, Греция</span>,
   </div>
-  Электронная почта: <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1f767179705f6d6a7e31786d">[email&#160;protected]</a></span>
+  Электронная почта: <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="026b6c646d427077632c6570">[email&#160;protected]</a></span>
 </div>
 <p>При использовании материалов <strong> www.rua.gr </strong>активная ссылка (hyperlink) на источник обязательна.| Настоящий ресурс содержит материалы категории +5 и может содержать материалы 16+ (о чем в публикации ставиться пометка)<br /><a href="https://rua.gr/useragriment.html">Copyright © 2004-22 <strong>Афинские Новости</strong></a><strong> | <a href="https://www.wstudio.gr">Powered by Wstudio.gr</a> </strong></p>
 	</div>
@@ -2993,7 +3035,7 @@ acymailingModule['excludeValuesformAcymailing71291']['email'] = 'Введите 
 	<input type="hidden" name="option" value="com_users" />
 	<input type="hidden" name="task" value="user.login" />
 	<input type="hidden" name="return" value="aHR0cHM6Ly9ydWEuZ3IvbmV3cy9taWdyYW50c2tpai1mcm9udC81Mjc1OC1teS1uZS16bmFlbS1rb2xpY2hlc3R2by1uZWxlZ2FsbnlraC1pbW1pZ3JhbnRvdi12LWdyZXRzaWktbGVnYWxueWtoLTEtMDAwLTAwMC5odG1s" />
-	<input type="hidden" name="2b64074e1c8b1f6cd21a39c31246a776" value="1" />	</fieldset>
+	<input type="hidden" name="5848feb57ad7ca6a4f2e2605aaac95f7" value="1" />	</fieldset>
 	<ul class="ul-jlslogin">
 		<li>
 			<a  rel="nofollow" href="/login.html?view=reset">
