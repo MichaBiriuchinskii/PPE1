@@ -1,9 +1,13 @@
-# PPE1
+# (É|IM)MIGRATION
 
-Programmation et Projet Encadré 1
+Master 1 TAL - Programmation et Projet Encadré 1
 
-Mikhail Biriuchinskii
+Membres du groupe :
 
-Site bête pour comprendre le html :
+Clément Buon, Inalco, chinois
 
-https://michabiriuchinskii.github.io/PPE1/
+Mikhail Biriuchinskii, ParisX, russe
+
+Sarah Almeida Barreto, Paris3, anglais
+
+Page web du projet : https://cbuontal.github.io/M1TAL_immigration/
